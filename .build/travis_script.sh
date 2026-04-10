@@ -7,7 +7,7 @@ cd $TRAVIS_BUILD_DIR
 echo `pwd`
 git clone --recurse-submodules https://github.com/qwat/qwat-data-model.git
 
-wget -q -O qwat_dump.backup https://github.com/qwat/qwat-data-sample/raw/master/qwat_v1.2.1_data_and_structure_sample.backup
+wget -q -O qwat_dump.backup https://github.com/qwat/qwat-data-sample/raw/main/qwat_v1.2.1_data_and_structure_sample.backup
 
 export SRID=21781
 export QWAT_DIR="$TRAVIS_BUILD_DIR/qwat-data-model"
